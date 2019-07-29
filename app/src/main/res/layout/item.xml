@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/LinearLayoutItem"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingLeft="@dimen/cardview_default_elevation"
+    android:paddingRight="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/ImageViewItem"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_margin="5dip">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TextViewItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dip"
+            android:fontFamily="@font/motiregular"
+            android:maxWidth="150dip"
+            android:minLines="2"
+            android:text="Book Title"
+            android:textColor="#000000"
+            android:textSize="22dp"></TextView>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/motiregular">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutQuantity"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/textViewQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/motiregular"
+            android:text="Qty:"
+            android:textColor="#000000"
+            android:textSize="14dp">
+
+        </TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPrice"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="80dp">
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/motiregular"
+                android:text="Price:"
+                android:textColor="#000000"
+                android:textSize="16dp">
+
+            </TextView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

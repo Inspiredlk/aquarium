@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "270255154439",
+    "firebase_url": "https://logindemo-31db1.firebaseio.com",
+    "project_id": "logindemo-31db1",
+    "storage_bucket": "logindemo-31db1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270255154439:android:cc8c76429c8edb04",
+        "android_client_info": {
+          "package_name": "com.example.ensiz_softwarem.logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270255154439-1t89lmfrp8ecnoig4ofn57vruhasic9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuxCFyqco1KX_fR3AOJmQ7_BibdADZmrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

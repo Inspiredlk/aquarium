@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btPScreen"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="20dp"
+        android:background="#4B87C8"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:text="Purchase"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onPurch" />
+
+
+
+</LinearLayout>
